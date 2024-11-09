@@ -6,17 +6,17 @@ if (!localStorage.getItem('nexpay_users')) {
 // Rank definitions
 const ranks = [
     { name: "Wood", tokens_required: 0, icon: "assets/images/wood.png" },
-    { name: "Stone", tokens_required: 100, icon: "assets/images/stone.png" },
-    { name: "Iron", tokens_required: 250, icon: "assets/images/iron.png" },
-    { name: "Copper", tokens_required: 500, icon: "assets/images/copper.png" },
-    { name: "Bronze", tokens_required: 1000, icon: "assets/images/bronze.png" },
-    { name: "Silver", tokens_required: 2500, icon: "assets/images/silver.png" },
-    { name: "Gold", tokens_required: 5000, icon: "assets/images/gold.png" },
-    { name: "Platinum", tokens_required: 10000, icon: "assets/images/platinum.png" },
-    { name: "Diamond", tokens_required: 25000, icon: "assets/images/diamond.png" },
-    { name: "Pearl", tokens_required: 50000, icon: "assets/images/pearl.png" },
-    { name: "Emerald", tokens_required: 100000, icon: "assets/images/emerald.png" },
-    { name: "Sapphire", tokens_required: 250000, icon: "assets/images/sapphire.png" }
+    { name: "Stone", tokens_required: 1000, icon: "assets/images/stone.png" },
+    { name: "Iron", tokens_required: 10000, icon: "assets/images/iron.png" },
+    { name: "Copper", tokens_required: 50000, icon: "assets/images/copper.png" },
+    { name: "Bronze", tokens_required: 250000, icon: "assets/images/bronze.png" },
+    { name: "Silver", tokens_required: 1000000, icon: "assets/images/silver.png" },
+    { name: "Gold", tokens_required: 5000000, icon: "assets/images/gold.png" },
+    { name: "Platinum", tokens_required: 10000000, icon: "assets/images/platinum.png" },
+    { name: "Diamond", tokens_required: 50000000, icon: "assets/images/diamond.png" },
+    { name: "Pearl", tokens_required: 100000000, icon: "assets/images/pearl.png" },
+    { name: "Emerald", tokens_required: 500000000, icon: "assets/images/emerald.png" },
+    { name: "Sapphire", tokens_required: 1000000000, icon: "assets/images/sapphire.png" }
 ];
 
 // Fetch user data from localStorage
